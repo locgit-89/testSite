@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/register.css">
+  <script src="../js/register.js"></script>
+  <title>LocTT</title>
+</head>
+<body>
+  <!-- logo----------------------------- -->
+  <div id="logo">logo</div>
+  <!-- navigation----------------------- -->
+   <nav>
+    <a href="./Loc.html">Loc</a>
+    <a href="">Untilities</a>
+    <a href="">Share</a>
+    <a href="">Knowledge</a>
+    <a href="">LocTT</a>
+    <a href="">SignIn</a>
+    <a href="">About Us</a>
+   </nav>
+   <!-- form------------------------- -->
+   <form action="./Loc.html" onsubmit="return ham1()">
+    <table>
+      <caption>Register Form</caption>
+      <caption><hr style="margin: 20px 0;"></caption>
+      <!-- full name -->
+      <tr>
+        <td>full name</td>
+        <td><input id="fullName" class="ip" type="text"></td>
+      </tr>
+      <!-- gioi tinh -->
+      <tr>
+        <td>gender</td>
+        <td>
+          <input type="radio" name="sex" checked value="nam"> nam
+          <input type="radio" name="sex" value="nu"> nu
+        </td>
+      </tr>
+      <!-- date of birth -->
+      <tr>
+        <td>date of birth</td>
+        <td><input id="dateOfBirth" class="ip"  type="date"></td>
+      </tr>
+      <!-- address -->
+       <tr>
+        <td>address</td>
+        <td><input id="address" class="ip" type="text"></td>
+       </tr>
+      <!-- email -->
+       <tr>
+        <td>email</td>
+        <td><input id="email" class="ip" type="text"></td>
+       </tr>
+      <!-- phone -->
+       <tr>
+        <td>phone</td>
+        <td><input id="phone" class="ip" type="number"></td>
+       </tr>
+       <!-- country -->
+        <tr>
+          <td>country</td>
+          <td>
+            <select name="" class="ip">
+              <option value="Laos">Laos</option>
+              <option selected value="Vietnam">Vietnam</option>
+              <option value="Cambodia">Cambodia</option>
+              <option value="Korea">Korea</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </td>
+        </tr>
+        <!-- button -->
+         <tr>
+          <td></td>
+          <td id="bt">
+            <button>submit</button>
+            <button type="reset">reset</button>
+          </td>
+        </tr>
+      </table>
+   </form>
+  <!-- footer-------------------------- -->
+   <br>
+   <br>
+   <br>
+   <footer>
+    &copy; By me. All right reverse
+   </footer>
+  
+</body>
+</html>
